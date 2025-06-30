@@ -78,7 +78,7 @@ Created as part of the **UI/UX Internship Program by [CodSoft](https://www.codso
 
 ## 📫 Connect with Me
 
-- 📧 Email: *ishaanralhan0@gmail.com*  
+- 📧 Email: *ishaanjims@gmail.com*  
 - 💼 LinkedIn: [linkedin.com/in/ishaan-500900351](https://www.linkedin.com/in/ishaan-500900351/)  
 - 🌐 GitHub: [github.com/Ishaan-2589](https://github.com/Ishaan-2589)
 
