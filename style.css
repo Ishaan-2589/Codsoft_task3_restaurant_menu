@@ -8,8 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-/* Body & Base */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #000;
@@ -18,7 +16,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Fonts */
 .logo-font {
     font-family: 'Parisienne', cursive;
     font-size: 40px;
@@ -38,8 +35,6 @@ body {
     font-family: 'Parisienne', 'Tangerine', cursive;
 }
 
-/* Header */
-/* Header */
 header {
     background-color: #111;
     padding: 20px 40px;
@@ -51,32 +46,24 @@ header {
 
 nav {
     display: flex;
-    /* Add this to enable flexbox for the nav links */
     gap: 30px;
-    /* Adjust this value for the desired gap */
 }
 
 nav a {
     color: white;
-    /* margin-left: 20px;  Remove this as gap will handle spacing */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
     padding: 8px 15px;
-    /* Add some padding for a button-like feel */
     border-radius: 5px;
-    /* Slightly rounded corners */
 }
 
 nav a:hover {
     color: black;
-    /* Change text color on hover */
     background-color: gold;
-    /* Add a background color on hover */
 }
 
 .hero {
-
     background-image: url('banner.png');
     background-color: #1a1a1a;
     background-size: cover;
@@ -92,7 +79,6 @@ nav a:hover {
     min-height: 400px;
 }
 
-/* Menu Section */
 .menu-section {
     padding: 60px 30px;
     text-align: center;
@@ -108,10 +94,8 @@ nav a:hover {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
-    /* Add some space below the heading */
 }
 
-/* Filter Buttons */
 .filter-buttons {
     margin-bottom: 30px;
 }
@@ -139,23 +123,18 @@ nav a:hover {
     color: black;
 }
 
-/* Category Headings */
-/* Ensure category headings are centered and have bottom margin */
 .category-heading {
     font-family: 'Allura', 'Sacramento', cursive;
     text-align: center;
     font-size: 45px;
     color: gold;
     margin: 40px auto 10px;
-    /* Use auto for left/right margin to center a block element */
     border-bottom: 2px solid rgba(255, 215, 0, 0.3);
     padding-bottom: 5px;
     text-align: center;
     max-width: fit-content;
-    /* Helps center the border for shorter headings */
 }
 
-/* Menu Cards */
 .menu-card {
     background-color: #111;
     border: 1px solid #444;
@@ -197,11 +176,9 @@ nav a:hover {
 .menu-card:hover .info h3,
 .menu-card:hover .info p {
     color: gold;
-    /* Or a lighter white/grey */
     transition: color 0.3s ease;
 }
 
-/* Footer */
 footer {
     background-color: #111;
     color: #ccc;
@@ -211,7 +188,6 @@ footer {
     border-top: 1px solid gold;
 }
 
-/* Scroll to Top */
 #scrollTopBtn {
     display: none;
     position: fixed;
@@ -233,7 +209,6 @@ footer {
     background-color: #ffcc00;
 }
 
-/* Lightbox */
 .lightbox {
     display: none;
     position: fixed;
@@ -254,8 +229,6 @@ footer {
     border-radius: 10px;
 }
 
-
-/* Responsive */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
